@@ -1,1 +1,1 @@
-# loja-virtual-fronted
+# loja-virtual-frontend
