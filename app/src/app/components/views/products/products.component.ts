@@ -14,6 +14,6 @@ export class ProductsComponent {
   }
 
   public test(): void {
-    this.service.testService();
+    this.service.getProducts().subscribe(res => console.table(res));
   }
 }
