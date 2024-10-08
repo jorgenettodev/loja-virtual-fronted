@@ -4,6 +4,7 @@
   justify-content: center;
   gap: 2rem;
   padding: 6px;
+  background-color: aliceblue;
 }
 
 .menu a {
