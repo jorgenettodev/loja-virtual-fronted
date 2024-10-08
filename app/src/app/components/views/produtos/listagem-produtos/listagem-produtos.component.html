@@ -1,1 +1,8 @@
-<p>listagem-produtos works!</p>
+<div class="produtos">
+  @for (produto of produtos; track $index ) {
+    <div class="produto">
+      <img [src]="produto.url_imagem" alt="imagem do produto" class="produto__imagem">
+      <h3>{{ produto.nome }}</h3>
+    </div>
+  }
+</div>
