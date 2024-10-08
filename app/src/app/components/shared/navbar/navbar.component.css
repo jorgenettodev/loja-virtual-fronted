@@ -1,0 +1,17 @@
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 6px;
+}
+
+.menu a {
+  font-size: 32px;
+  color: crimson;
+  transition: .5s;
+}
+
+.menu a:hover {
+  font-size: 33px;
+}
