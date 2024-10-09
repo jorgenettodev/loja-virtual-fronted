@@ -4,6 +4,7 @@ export class Produto {
   public descricao: string;
   public preco: number;
   public url_imagem: string;
+  public categoria!: number;
 
   constructor(nome: string,
               descricao: string,

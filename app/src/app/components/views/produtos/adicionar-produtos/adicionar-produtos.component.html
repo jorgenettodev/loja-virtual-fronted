@@ -1,1 +1,9 @@
-<p>adicionar-produtos works!</p>
+<div class="adicionar-produto">
+  <input type="text" placeholder="Nome do produto" [(ngModel)]="nome">
+  <textarea placeholder="Descricao do produto" [(ngModel)]="descricao"></textarea>
+  <input type="number" placeholder="preço" [(ngModel)]="preco">
+  <input type="number" placeholder="categoria numérica" [(ngModel)]="categoria">
+  <input type="text" placeholder="url imagem" [(ngModel)]="url_imagem">
+  <button (click)="exibeNome()" class="button__adicionar">Adicionar</button>
+</div>
+
