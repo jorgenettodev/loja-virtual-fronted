@@ -22,4 +22,11 @@ export class ListagemProdutosComponent implements OnInit {
       console.log(this.produtos);
     })
   }
+
+  public deletar(id: number) {
+    return this.produtoService.deletarProduto(id).subscribe(response => {
+      console.log(response);
+      this.buscarProdutos();
+    });
+  }
 }
