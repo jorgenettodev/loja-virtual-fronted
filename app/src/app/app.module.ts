@@ -8,6 +8,7 @@ import { provideHttpClient } from '@angular/common/http';
 import { AdicionarProdutosComponent } from './components/views/produtos/adicionar-produtos/adicionar-produtos.component';
 import { ListagemProdutosComponent } from './components/views/produtos/listagem-produtos/listagem-produtos.component';
 import { FormsModule } from '@angular/forms';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsModule } from '@angular/forms';
     FormsModule
   ],
   providers: [
-    provideHttpClient()
+    provideHttpClient(),
+    provideAnimationsAsync()
   ],
   bootstrap: [AppComponent]
 })
